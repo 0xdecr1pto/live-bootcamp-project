@@ -15,6 +15,7 @@ pub struct HashmapUserStore {
     users: HashMap<String, User>,
 }
 
+
 impl HashmapUserStore {
     pub fn add_user(&mut self, user: User) -> Result<(), UserStoreError> {
         if self.users.contains_key(&user.email) {
