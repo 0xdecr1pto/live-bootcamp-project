@@ -1,12 +1,6 @@
 ## Setup & Building
 ```bash
-cargo install cargo-watch
-cd app-service
-cargo build
-cd ..
-cd auth-service
-cargo build
-cd ..
+c
 ```
 
 ## Run servers locally (Manually)
